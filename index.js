@@ -1,10 +1,10 @@
 
 const inquirer = require("inquirer");
 
-const render = require("./lib/HTMLrender");
+const render = require("./Team/HTMLreq");
 
-const Manager = require("./lib/constructors/Manager");
-const Engineer = require("./lib/constructors/Engineer");
+const Manager = require("./Team/Manager");
+const Engineer = require("./Team/Engineer");
 
 const teamMembers = [
 //   new Manager("Manny", 1, "manny@heiscool.com", 200),
